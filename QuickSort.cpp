@@ -36,7 +36,7 @@ void QuickSort(int A[], int low, int high)
     {
         int q = Partition(A, low, high);
         QuickSort(A, 0, q - 1);    // Call Quicksort recursively on left subarray
-        QuickSort(A, q + 1, high); // Call Quicksort recursively on righ subarray
+        QuickSort(A, q + 1, high); // Call Quicksort recursively on right subarray
     }
 }
 
